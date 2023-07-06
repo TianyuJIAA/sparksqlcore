@@ -1,4 +1,4 @@
-// 语法文件通常以 granmar 关键宇开头 这是一个名为 MeSql 的语法 它必须和文件名 MeSql.g4相匹配
+// 语法文件通常以 grammar 关键宇开头 这是一个名为 MeSql 的语法 它必须和文件名 MeSql.g4相匹配
 parser grammar MeSqlParser;
 
 options {
