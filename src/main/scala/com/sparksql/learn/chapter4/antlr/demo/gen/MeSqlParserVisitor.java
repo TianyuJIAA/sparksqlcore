@@ -1,4 +1,4 @@
-// Generated from /Users/jiatianyu/IdeaProjects/Home/sparksqlcore/src/main/scala/com/sparksql/learn/chapter4/antlr/demo/MeSqlParser.g4 by ANTLR 4.12.0
+// Generated from /Users/jiatianyu/IdeaProjects/Home/sparksqlcore/src/main/scala/com/sparksql/learn/chapter4/antlr/demo/MeSqlParser.g4 by ANTLR 4.9.2
 package com.sparksql.learn.chapter4.antlr.demo.gen;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 

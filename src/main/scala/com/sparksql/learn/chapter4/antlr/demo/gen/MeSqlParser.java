@@ -1,4 +1,4 @@
-// Generated from /Users/jiatianyu/IdeaProjects/Home/sparksqlcore/src/main/scala/com/sparksql/learn/chapter4/antlr/demo/MeSqlParser.g4 by ANTLR 4.12.0
+// Generated from /Users/jiatianyu/IdeaProjects/Home/sparksqlcore/src/main/scala/com/sparksql/learn/chapter4/antlr/demo/MeSqlParser.g4 by ANTLR 4.9.2
 package com.sparksql.learn.chapter4.antlr.demo.gen;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
@@ -9,9 +9,9 @@ import java.util.List;
 import java.util.Iterator;
 import java.util.ArrayList;
 
-@SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast", "CheckReturnValue"})
+@SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class MeSqlParser extends Parser {
-	static { RuntimeMetaData.checkVersion("4.12.0", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.9.2", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
@@ -89,7 +89,6 @@ public class MeSqlParser extends Parser {
 		_interp = new ParserATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
 	}
 
-	@SuppressWarnings("CheckReturnValue")
 	public static class MeContext extends ParserRuleContext {
 		public TerminalNode START() { return getToken(MeSqlParser.START, 0); }
 		public List<ValueContext> value() {
@@ -164,7 +163,6 @@ public class MeSqlParser extends Parser {
 		return _localctx;
 	}
 
-	@SuppressWarnings("CheckReturnValue")
 	public static class ValueContext extends ParserRuleContext {
 		public MeContext me() {
 			return getRuleContext(MeContext.class,0);
@@ -226,20 +224,12 @@ public class MeSqlParser extends Parser {
 	}
 
 	public static final String _serializedATN =
-		"\u0004\u0001\u0005\u0014\u0002\u0000\u0007\u0000\u0002\u0001\u0007\u0001"+
-		"\u0001\u0000\u0001\u0000\u0001\u0000\u0001\u0000\u0005\u0000\t\b\u0000"+
-		"\n\u0000\f\u0000\f\t\u0000\u0001\u0000\u0001\u0000\u0001\u0001\u0001\u0001"+
-		"\u0003\u0001\u0012\b\u0001\u0001\u0001\u0000\u0000\u0002\u0000\u0002\u0000"+
-		"\u0000\u0013\u0000\u0004\u0001\u0000\u0000\u0000\u0002\u0011\u0001\u0000"+
-		"\u0000\u0000\u0004\u0005\u0005\u0002\u0000\u0000\u0005\n\u0003\u0002\u0001"+
-		"\u0000\u0006\u0007\u0005\u0004\u0000\u0000\u0007\t\u0003\u0002\u0001\u0000"+
-		"\b\u0006\u0001\u0000\u0000\u0000\t\f\u0001\u0000\u0000\u0000\n\b\u0001"+
-		"\u0000\u0000\u0000\n\u000b\u0001\u0000\u0000\u0000\u000b\r\u0001\u0000"+
-		"\u0000\u0000\f\n\u0001\u0000\u0000\u0000\r\u000e\u0005\u0003\u0000\u0000"+
-		"\u000e\u0001\u0001\u0000\u0000\u0000\u000f\u0012\u0003\u0000\u0000\u0000"+
-		"\u0010\u0012\u0005\u0001\u0000\u0000\u0011\u000f\u0001\u0000\u0000\u0000"+
-		"\u0011\u0010\u0001\u0000\u0000\u0000\u0012\u0003\u0001\u0000\u0000\u0000"+
-		"\u0002\n\u0011";
+		"\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3\7\26\4\2\t\2\4\3"+
+		"\t\3\3\2\3\2\3\2\3\2\7\2\13\n\2\f\2\16\2\16\13\2\3\2\3\2\3\3\3\3\5\3\24"+
+		"\n\3\3\3\2\2\4\2\4\2\2\2\25\2\6\3\2\2\2\4\23\3\2\2\2\6\7\7\4\2\2\7\f\5"+
+		"\4\3\2\b\t\7\6\2\2\t\13\5\4\3\2\n\b\3\2\2\2\13\16\3\2\2\2\f\n\3\2\2\2"+
+		"\f\r\3\2\2\2\r\17\3\2\2\2\16\f\3\2\2\2\17\20\7\5\2\2\20\3\3\2\2\2\21\24"+
+		"\5\2\2\2\22\24\7\3\2\2\23\21\3\2\2\2\23\22\3\2\2\2\24\5\3\2\2\2\4\f\23";
 	public static final ATN _ATN =
 		new ATNDeserializer().deserialize(_serializedATN.toCharArray());
 	static {
