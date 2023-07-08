@@ -1,5 +1,5 @@
 // Generated from /Users/jiatianyu/IdeaProjects/Home/sparksqlcore/src/main/scala/com/sparksql/learn/chapter4/antlr/demo/MeSqlLexer.g4 by ANTLR 4.12.0
-package antlr.demo;
+package com.sparksql.learn.chapter4.antlr.demo.gen;
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
