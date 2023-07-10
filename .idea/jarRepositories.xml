@@ -7,6 +7,11 @@
       <option name="url" value="http://nexus.daikuan.qihoo.net/nexus/content/groups/public/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="dev" />
+      <option name="name" value="geelib_release_maven_NAME" />
+      <option name="url" value="http://nexus.daikuan.qihoo.net/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="scala-tools.org" />
       <option name="name" value="Scala-Tools Maven2 Repository" />
       <option name="url" value="http://nexus.daikuan.qihoo.net/nexus/content/groups/public/" />
