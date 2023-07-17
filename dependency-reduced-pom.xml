@@ -59,22 +59,26 @@
         <dependency>
           <groupId>org.scala-lang</groupId>
           <artifactId>scala-library</artifactId>
-          <version>${scala.version}</version>
+          <version>2.12.15</version>
+          <scope>compile</scope>
         </dependency>
         <dependency>
           <groupId>org.scala-lang</groupId>
           <artifactId>scala-reflect</artifactId>
-          <version>${scala.version}</version>
+          <version>2.12.15</version>
+          <scope>compile</scope>
         </dependency>
         <dependency>
           <groupId>org.apache.spark</groupId>
-          <artifactId>spark-core_${scala.compat.version}</artifactId>
-          <version>${spark.version}</version>
+          <artifactId>spark-core_2.12</artifactId>
+          <version>3.3.2</version>
+          <scope>compile</scope>
         </dependency>
         <dependency>
           <groupId>org.apache.spark</groupId>
-          <artifactId>spark-sql_${scala.compat.version}</artifactId>
-          <version>${spark.version}</version>
+          <artifactId>spark-sql_2.12</artifactId>
+          <version>3.3.2</version>
+          <scope>compile</scope>
         </dependency>
       </dependencies>
     </profile>
