@@ -17,8 +17,10 @@ object Demo {
     spark.read.json("/Users/jiatianyu/IdeaProjects/Home/sparksqlcore/data/student.json")
       .createTempView("student")
 
-    val frame1 = spark.sql("select name from student where age > 18")
-    frame1.show()
+    spark.read.json("/Users/jiatianyu/IdeaProjects/Home/sparksqlcore/data/person.json")
+      .createTempView("person")
+
+    spark.sql("select s.name from student s join person p on s.id = p.id where s.age > 10").explain(true)
 
   }
 }

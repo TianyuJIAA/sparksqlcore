@@ -18,11 +18,22 @@ class Teacher implements Person{
     }
 }
 
+class Man extends Worker{
+    @Override
+    public void method() {
+        System.out.println("I am a real man");;
+    }
+}
+
 public class DynamicDispatch {
     public static void main(String[] args) {
         Person worker = new Worker();
         Person teacher = new Teacher();
         worker.method();
         teacher.method();
+
+        Man man = new Man();
+        man.method();
+
     }
 }
